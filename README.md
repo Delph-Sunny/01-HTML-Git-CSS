@@ -8,7 +8,7 @@ Web accessibility ensures that people with disabilities can access a website usi
 Website accessibility can also improve its position in search engines like Google. 
 
 The following criteria are required for this website:
-    - Elements should be **semantic**.
+     Elements should be **semantic**.
     - Elements should follow a logical structure
     - Images should have alternative text
     - All heading attributes should fall in sequential order
