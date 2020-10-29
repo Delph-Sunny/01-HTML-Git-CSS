@@ -9,9 +9,9 @@ Website accessibility can also improve its position in search engines like Googl
 
 The following criteria are required for this website:
 > [x] Elements should be **semantic**.  
-> [ ] Elements should follow a logical structure.  
+> [x] Elements should follow a logical structure.  
 > [x] Images should have alternative text.  
-> [ ] All heading attributes should fall in sequential order.  
+> [x] All heading attributes should fall in sequential order.  
 > [ ] The title element should be descriptive and concise.  
 
 ## Table of Contents
