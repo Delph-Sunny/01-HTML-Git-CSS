@@ -24,7 +24,7 @@ The following criteria are required for this website:
 
 ## Installation
 
-Download the entire repository and unzip the files.
+Download the entire repository and unzip the files.  
 **Note:** Preserve the folder structure. 
 
 
