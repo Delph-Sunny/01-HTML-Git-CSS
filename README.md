@@ -12,7 +12,7 @@ The following criteria are required for this website:
 > [x] Elements should follow a logical structure.  
 > [x] Images should have alternative text.  
 > [x] All heading attributes should fall in sequential order.  
-> [ ] The title element should be descriptive and concise.  
+> [x] The title element should be descriptive and concise.  
 
 ## Table of Contents
 
