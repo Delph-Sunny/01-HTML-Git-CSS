@@ -21,14 +21,14 @@ header {
 }
 
 /* Style for headers level 1 improved with flexbox properties*/
-h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     flex: 1;
 }
 
 /* Style for navigation items in header */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,7 +47,7 @@ li {
     margin-left: 25px;
 }
 
-/* Style for all hyperlinks in header */
+/* Style for all hyperlinks */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -56,27 +56,18 @@ a {
 /* Style for all paragraphs */
 p {
     font-size: 16px;
+    line-height: 20px;
 }
 
-/* Main with background image */
+/* Left side of the page containing the articles */
 main {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* Left part of the page with nested sections */
-article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Style for sections on the left */
-section {
+/* Style for articles on the left */
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -91,12 +82,12 @@ img {
 }
 
 /* Style for headers level 2 */
-h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Right section with navigation for each benefites */
+/* Right side of the page with sections for each benefite */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -108,8 +99,8 @@ aside {
     background-color: #2589bd;
 }
 
-/* Navigation style in the aside */
-aside nav {
+/* Style for sections */
+section {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -120,8 +111,8 @@ h3  {
     text-align: center;
 }
 
-/* Image style of the navigation items in the aside */
-aside>nav>img {
+/* Image style of the sections in the aside */
+aside>section>img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -140,11 +131,22 @@ footer h2 {
     font-size: 20px;
 }
 
-/* ------Below are the classes for the entire webpage------ */
+
+/* -------Below are the classes for the entire webpage------- */
 
 /* Style for h1 span. Class seo */
 .seo {
     color: #d9dcd6;
+}
+
+/* Styled background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Article image class style: To the left */
